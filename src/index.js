@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function Square(props) {
-
-
-    render () {
         return (
         <button 
         className="square" 
@@ -14,7 +11,6 @@ function Square(props) {
         { props.value}
         </button>
         ) ;
-    }
 }
 
 class Board extends React.Component {
